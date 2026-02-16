@@ -44,4 +44,13 @@ Personalization and discovery experiences
 
 
 This prototype reflects an early-stage exploration of data-driven music intelligence.
+## Setup
+1. Create a Spotify Developer account and register an app.
+2. Create a `.env` file with:
+   SPOTIFY_CLIENT_ID=your_client_id
+   SPOTIFY_CLIENT_SECRET=your_client_secret
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Run:
+   python main.py --track "Blinding Lights" --artist "The Weeknd"
 
