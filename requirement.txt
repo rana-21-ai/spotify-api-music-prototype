@@ -1,0 +1,3 @@
+request
+python-dotenv
+pandas
