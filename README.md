@@ -1,12 +1,47 @@
-# Spotify-pi-music-prototype
-Exploring music metadata and audio features using Spotify Web API
+# Spotify API Music Prototype 🎧
 
-A small prototype exploring music metadata and audio features using the Spotify Web API.
+A small Python prototype exploring music metadata and audio features using the Spotify Web API.
 
-## What I Explored
-- Track metadata
-- Audio features (energy, tempo, valence, etc.)
-- How data can support personalization and recommendation ideas
+## Overview
+This project demonstrates how Spotify’s API can be used to retrieve track-level metadata and audio features such as:
+Danceability
+Energy
+Tempo
+Valence
+Popularity
 
-## Why This Project
-I’m interested in how AI and data-driven systems can enhance music discovery while remaining human-centered.
+The goal is to explore how these features can support music understanding, personalization, and recommendation workflows.
+
+## What This Project Does
+Authenticates using Spotify Client Credentials Flow
+Searches for a track by name (and optional artist)
+Retrieves detailed audio features
+Outputs the results in a structured format (CSV + console output)
+
+## Technologies Used
+- Python
+- Spotify Web API
+- Requests
+- Pandas
+- dotenv
+
+## Example Usage
+```bash
+python main.py --track "Blinding Lights" --artist "The Weeknd"
+
+Output
+
+The script prints the track’s audio features and saves them to output.csv.
+
+
+Why This Matters
+
+Audio features like energy, tempo, and valence are core signals used in:
+
+Music recommendation systems
+Mood-based playlists
+Personalization and discovery experiences
+
+
+This prototype reflects an early-stage exploration of data-driven music intelligence.
+
